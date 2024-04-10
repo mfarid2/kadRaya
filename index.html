@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <img class="bgImage" src="./assets/images/bgImage_1.png">
+        <form id="form1" class="p-4 rounded text-center">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="nameHelp" autocomplete="off">
+              <div id="nameHelp" class="form-text errorInvisible">Please enter your name correctly.</div>
+            </div>
+            <button type="button" id="btnSubmit" class="btn btn-primary clickable">Submit</button>
+        </form>
+        <div id="kad" class="card mb-3">
+            <img src="./assets/images/kooda.jpg" class="card-img-top profile-img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KOODA</h5>
+                <p class="card-text">
+                    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel" data-bs-interval="0">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <pre>
+Teropong Langit Senyum Ceria,
+Asalkan Jangan Terpinga Pinga,
+Syukur Alhamdulillah, Sekarang Raya,
+Awak, Selamat Hari Raya.
+                                </pre>
+                            </div>
+                            <div class="carousel-item">
+                                <pre>
+Cik empunya badan, disini saya ingin 
+<span style="text-decoration: line-through;">memohon tangan awak</span>
+maaf kepada awak.
+                                    <span class="signature">Farid</span>
+                                </pre>
+                            </div>
+                            <div class="carousel-item">
+                                <pre>
+Bulan Ramadhan Mendidik Kesabaran,
+Bulan Syawal Meraikan Kemenangan,
+Rindu Sangat Suara Empunya Badan,
+Harap Terubat Masa Hadapan!
+                                </pre>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>  
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
